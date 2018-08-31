@@ -1,4 +1,4 @@
 // WebSocket を作成
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('ws://' + );
 
 module.exports = socket
